@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url "https://repo.spring.io/milestone" }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "brasil-cep"
+
+include "domain"
+include "output-adapter:postgres"
+include "input-adapter:rest"
