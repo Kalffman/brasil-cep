@@ -8,5 +8,5 @@ pluginManagement {
 rootProject.name = "brasil-cep"
 
 include "domain"
-include "output-adapter:postgres"
-include "input-adapter:rest"
+include "adapter:output:persistence:postgres"
+include "adapter:input:rest"
